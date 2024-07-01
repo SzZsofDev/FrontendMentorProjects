@@ -1,0 +1,55 @@
+body {
+    width: 1440px;
+    height: 100vh;
+    background-color: hsl(0, 0%, 8%);
+    color: hsl(75, 94%, 57%);
+    font-family: 'Inter';
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    width: 27%;
+    height: 550px; 
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 3%;
+    padding: 40px;
+}
+
+img {
+    width: 90px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    /*centering an image, below 3 lines*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.location {
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.description{
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+li {
+    background-color: grey;
+    
+}
