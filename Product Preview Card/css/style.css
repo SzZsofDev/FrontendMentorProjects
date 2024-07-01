@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --dark-cyan: hsl(158, 36%, 37%);
+    --cream: hsl(30, 38%, 92%);
+    --very-dark-blue: hsl(212, 21%, 14%);
+    --dark-grayish-blue: hsl(228, 12%, 48%);
+    --white: hsl(0, 0%, 100%);
+}
+
+body {
+    background-color: var(--cream);
+    width: 1440px;
+    min-height: 100vh;
+    font-family: 'Montserrat Thin', sans-serif;
+    display: grid;
+    place-content: center;
+}
+
+img {
+    float: left;
+}
+
+.card {
+    background-color: var(--white);
+    max-width: 800px;
+    display: grid; /*to make it a two column thing*/
+    grid-template-columns: 1fr 1fr;
+    border-radius: 1rem;
+}
+
+.card img {
+    max-width: 100%;
+    border-radius: 1rem 0 0 1rem;
+}
